@@ -5,3 +5,4 @@ Singapore AirBnB downloaded from: https://www.kaggle.com/jojoker/singapore-airbn
 
 Titanic Dataset downloaded from: https://www.kaggle.com/c/titanic-dataset/data
 
+Insurance Dataset downloaded from: https://www.kaggle.com/gloriousc/insurance-forecast-by-using-linear-regression/data
