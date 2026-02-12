@@ -1,2 +1,35 @@
 
 .DS_Store
+
+# Emotion Recognition outputs
+outputs/
+models/
+visualizations/
+train/
+test/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files
+*.mp4
+*.avi
+*.mov
+
+# Model files
+*.pth
+*.h5
+*.pkl
