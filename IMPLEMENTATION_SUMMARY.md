@@ -301,14 +301,11 @@ class Config:
 
 ## Citation
 
-If using this implementation, please cite:
+If using this implementation, please cite the original dynamic images research:
 
-**Dynamic Images:**
-```
-Bilen, H., Fernando, B., Gavves, E., Vedaldi, A., & Gould, S. (2016).
-Dynamic image networks for action recognition. CVPR 2016.
-https://github.com/tcvrick/dynamic-images-for-action-recognition
-```
+> Bilen, H., Fernando, B., Gavves, E., Vedaldi, A., & Gould, S. (2016).  
+> Dynamic image networks for action recognition. CVPR 2016.  
+> Implementation: https://github.com/tcvrick/dynamic-images-for-action-recognition
 
 ## License
 

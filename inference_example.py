@@ -87,13 +87,13 @@ def generate_dynamic_image(frames):
 def load_static_model(model_path, arch='resnet18'):
     """Load a trained static/dynamic image model"""
     if arch == 'resnet18':
-        model = models.resnet18(pretrained=False)
+        model = models.resnet18(weights=None)
         model.fc = torch.nn.Linear(model.fc.in_features, len(CLASSES))
     elif arch == 'resnet50':
-        model = models.resnet50(pretrained=False)
+        model = models.resnet50(weights=None)
         model.fc = torch.nn.Linear(model.fc.in_features, len(CLASSES))
     elif arch == 'mobilenet_v2':
-        model = models.mobilenet_v2(pretrained=False)
+        model = models.mobilenet_v2(weights=None)
         model.classifier[1] = torch.nn.Linear(model.classifier[1].in_features, len(CLASSES))
     
     model.load_state_dict(torch.load(model_path, map_location='cpu'))
